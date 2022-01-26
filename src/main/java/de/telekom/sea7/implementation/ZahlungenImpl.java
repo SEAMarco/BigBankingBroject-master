@@ -1,4 +1,4 @@
-package de.telekom.de.bigBankingBrojekt.Implementation;
+package de.telekom.sea7.implementation;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import de.telekom.de.bigBankingBrojekt.Interfaces.Zahlungen;
+import de.telekom.sea7.interfaces.Zahlungen;
 
 public class ZahlungenImpl implements Zahlungen, Iterable {
 

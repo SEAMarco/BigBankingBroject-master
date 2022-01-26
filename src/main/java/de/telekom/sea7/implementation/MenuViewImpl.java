@@ -1,12 +1,12 @@
-package de.telekom.de.bigBankingBrojekt.Implementation;
+package de.telekom.sea7.implementation;
 
 import java.io.IOException;
 import java.util.Scanner;
 
-import de.telekom.de.bigBankingBrojekt.Interfaces.MenuView;
-import de.telekom.de.bigBankingBrojekt.Interfaces.ZahlungView;
-import de.telekom.de.bigBankingBrojekt.Interfaces.Zahlungen;
-import de.telekom.de.bigBankingBrojekt.Interfaces.ZahlungenView;
+import de.telekom.sea7.interfaces.MenuView;
+import de.telekom.sea7.interfaces.ZahlungView;
+import de.telekom.sea7.interfaces.Zahlungen;
+import de.telekom.sea7.interfaces.ZahlungenView;
 
 public class MenuViewImpl implements MenuView {
 	

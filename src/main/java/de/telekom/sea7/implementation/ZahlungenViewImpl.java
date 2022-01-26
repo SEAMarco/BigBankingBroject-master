@@ -1,12 +1,12 @@
-package de.telekom.de.bigBankingBrojekt.Implementation;
+package de.telekom.sea7.implementation;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import de.telekom.de.bigBankingBrojekt.Interfaces.Zahlung;
-import de.telekom.de.bigBankingBrojekt.Interfaces.Zahlungen;
-import de.telekom.de.bigBankingBrojekt.Interfaces.ZahlungenView;
+import de.telekom.sea7.interfaces.Zahlung;
+import de.telekom.sea7.interfaces.Zahlungen;
+import de.telekom.sea7.interfaces.ZahlungenView;
 
 public class ZahlungenViewImpl implements ZahlungenView {
 

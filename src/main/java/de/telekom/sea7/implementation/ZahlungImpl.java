@@ -1,6 +1,6 @@
-package de.telekom.de.bigBankingBrojekt.Implementation;
+package de.telekom.sea7.implementation;
 
-import de.telekom.de.bigBankingBrojekt.Interfaces.Zahlung;
+import de.telekom.sea7.interfaces.Zahlung;
 
 public class ZahlungImpl implements Zahlung {
 	
