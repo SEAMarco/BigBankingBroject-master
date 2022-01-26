@@ -1,11 +1,9 @@
-package de.telekom.sea7.interfaces;
+package de.telekom.de.bigBankingBrojekt.Interfaces;
 
-import de.telekom.sea7.implementation.OutOfRangeException;
+import java.io.IOException;
 
 public interface Application {
 
-	void run(String[] args) throws OutOfRangeException, Exception;
-	
-	
+	void run(String[] args) throws IOException, Exception;
 
 }

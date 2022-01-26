@@ -1,17 +1,15 @@
-package de.telekom.sea7.interfaces;
+package de.telekom.de.bigBankingBrojekt.Interfaces;
 
-import java.util.ArrayList;
+import java.io.IOException;
 import java.util.Iterator;
-
-import de.telekom.sea7.implementation.OutOfRangeException;
 
 public interface Zahlungen extends Iterable {
 	
-	void addZahlung(Object zahlung) throws Exception;
+	void addZahlung(Object zahlung);
+	public void multiImport() throws IOException;
 	
-	Object get(int position) throws OutOfRangeException;
+	Object get(int position);
 	
 	Iterator iterator();
-	ArrayList<Object> getPaymentsList();
 
 }
