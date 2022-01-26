@@ -1,7 +1,7 @@
-package de.telekom.sea7.implementation;
+package de.telekom.de.bigBankingBrojekt.Implementation;
 
-import de.telekom.sea7.interfaces.Zahlung;
-import de.telekom.sea7.interfaces.ZahlungView;
+import de.telekom.de.bigBankingBrojekt.Interfaces.Zahlung;
+import de.telekom.de.bigBankingBrojekt.Interfaces.ZahlungView;
 
 public class ZahlungViewImpl implements ZahlungView {
 
@@ -13,5 +13,8 @@ public class ZahlungViewImpl implements ZahlungView {
 				+ zahlung.getWaehrung() + "\nVerwendungszweck: " + zahlung.getVerwendungszweck();
 
 	}
-
-}
+	
+	public Zahlung testZahlung() {
+		return new ZahlungImpl("Testkunde", "TestIBAN", "TestBIC", 222.22, "Eruo", "Test Verwendung");
+	}
+}	
