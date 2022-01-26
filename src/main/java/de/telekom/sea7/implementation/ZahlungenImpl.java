@@ -21,7 +21,7 @@ public class ZahlungenImpl implements Zahlungen, Iterable {
     String trenner = ";";
     try
     {
-        String filePath = "/home/sea31/eclipse-workspace/BigBankBrojact-master/testInput.csv";
+        String filePath = "/home/sea31/eclipse-workspace/BigBankBroject-master/testInput.csv";
         FileReader fileReader = new FileReader(filePath);
 
         BufferedReader reader = new BufferedReader(fileReader);
